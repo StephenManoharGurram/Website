@@ -51,6 +51,8 @@ a:hover{
 .logo:hover{
     cursor: default;
 }
+
+
 /*Hamburger Menu*/
 #hamburger-nav{
     display: none;
@@ -250,7 +252,11 @@ flex-direction: column;
 .about-details-container {
 display: flex;
 }
-
+/*about*/
+.text-container{
+    text-align: justify;
+    text-justify: inter-word;
+}
 .about-pic {
 border-radius: 2rem;
 }
@@ -262,7 +268,7 @@ bottom: 2.5rem;
 }
 
 .details-container {
-padding: 1.5rem;
+padding:1.5rem;
 flex: 1;
 background: white;
 border-radius: 2rem;
