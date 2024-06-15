@@ -21,8 +21,6 @@ a, .btn{
 /*Desktop Nav*/
 nav,.nav-links{
     display:flex;
-    
-    
 }
 nav{
     align-items: center;
@@ -321,17 +319,18 @@ article .icon {
 cursor: default;
 }
 /* PROJECTS SECTION */
+#Projects {
+    position: relative;
+    }
 .work{
     display: flex;
     text-align: center;
-    justify-content: space-around;
+    justify-content:space-evenly;
     margin-top: 20rem;
-    height: 10rem;
 }
+
 /*
-#projects {
-position: relative;
-}
+
 
 .color-container {
 border-color: rgb(163, 163, 163);
@@ -393,6 +392,7 @@ cursor: default;
 height: 2.5rem;
 }
 
+
 /* FOOTER SECTION */
 
 footer {
@@ -402,4 +402,7 @@ margin: 0 1rem;
 
 footer p {
 text-align: center;
+}
+.nav-links-container{
+    margin: 0 auto;
 }
