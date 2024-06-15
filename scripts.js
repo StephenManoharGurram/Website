@@ -4,3 +4,9 @@ function toggleMenu(){
     menu.classList.toggle("open")
     icon.classList.toggle("open")
 }
+function toggleMenu1(){
+    const menu = document.querySelector(".menu-links1");
+    const icon = document.querySelector(".hamburger-icon1");
+    menu.classList.toggle("open")
+    icon.classList.toggle("open")
+}
